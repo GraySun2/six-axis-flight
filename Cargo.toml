@@ -1,0 +1,11 @@
+[package]
+name = "six_axis_flight"
+version = "0.2.0"
+edition = "2024"
+description = "A six-axis spaceship flight model (pitch, yaw, roll plus lift, strafe and throttle) with Flight Assist. Plain Rust, no dependencies, works in any engine."
+license = "CC0-1.0"
+keywords = ["gamedev", "flight", "spaceship", "6dof", "physics"]
+categories = ["game-development", "simulation"]
+exclude = ["examples/bevy-fly"]
+
+[dependencies]

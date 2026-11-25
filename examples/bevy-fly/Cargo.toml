@@ -1,0 +1,11 @@
+# A small Bevy game that flies the six-axis model with the keyboard.
+# Run from this folder: cargo run --release (Bevy is a long first build).
+[package]
+name = "bevy_fly"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+six_axis_flight = { path = "../.." }
+bevy = "=0.20.0"
